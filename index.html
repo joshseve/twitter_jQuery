@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <title>Twitter.jQ</title>
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+  		<div class="navbar-container container-fluid">
+  			<div class="navbar-header text-center">
+          <p class="navbar-header-white navbar-text white-color">
+            <i class="fa fa-twitter fa-3x icon-color" aria-hidden="true"></i>
+            Twitter.Inc
+          </p>
+  			</div>
+  		</div>
+  	</nav>
+
+    <section class="container">
+      <div class="row">
+        <div class="col-xs-6 col-xs-offset-3">
+          <form id="tweet">
+            <div class="form-group">
+              <label for="message">Twitear</label>
+              <textarea id="message" name="message" class="form-control" rows="3" placeholder="¿Qué está pasando?"></textarea>
+              <span id="numero"></span>/140
+            </div>
+            <button id="add-button" type="submit" class="btn btn-default" disabled>
+              <i class="fa fa-paper-plane fa-2 send-icon" aria-hidden="true">Twittear</i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    
+    <section id="posts" class="container"></section>
+    
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+  
+  </body>
+</html>

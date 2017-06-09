@@ -1,0 +1,19 @@
+body {
+	padding-top: 70px;
+}
+
+.navbar-default, .container .jumbotron {
+	background-color: #56d7fe;
+}
+
+.navbar-default .navbar-text {
+	color: white;
+}
+
+.icon-color {
+  color: #fff;
+}
+
+.send-icon {
+  color: #56d7fe;
+}
